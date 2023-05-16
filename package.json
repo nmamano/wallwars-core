@@ -4,6 +4,8 @@
   "description": "Core logic of the wallwars game and variants.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "npm test"
   },
   "repository": {
