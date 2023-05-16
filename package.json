@@ -1,0 +1,23 @@
+{
+  "name": "wallwars-core",
+  "version": "0.0.1",
+  "description": "Core logic of the wallwars game and variants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmamano/wallwars-core.git"
+  },
+  "keywords": [
+    "board game",
+    "wallwars"
+  ],
+  "author": "Nil Mamano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmamano/wallwars-core/issues"
+  },
+  "homepage": "https://github.com/nmamano/wallwars-core#readme"
+}
