@@ -1,7 +1,9 @@
+const packageJson = require("../package.json");
+
 // Example function to export.
-export function greet(): string {
-  return `Hello, wallwars!`;
+export function version(): string {
+  return `wallwars-core v${packageJson.version}`;
 }
 
 // Example usage.
-console.log(greet());
+console.log(version());
