@@ -6,4 +6,4 @@ export function version(): string {
 }
 
 // Example usage.
-console.log(version());
+// console.log(version());
