@@ -1,13 +1,13 @@
 {
   "name": "wallwars-core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Core logic of the wallwars game and variants.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run build:declaration",
     "build:declaration": "tsc --declaration",
-    "prepublishOnly": "npm run build",
-    "test": "npm test",
+    "prepublishOnly": "npm run test && npm run build",
+    "test": "jest",
     "start": "node dist/index.js"
   },
   "repository": {
@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/nmamano/wallwars-core#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
     "typescript": "^5.0.4",
     "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1"
